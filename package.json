@@ -1,0 +1,22 @@
+{
+  "name": "yjs-golang-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "y-websocket": "^2.0.4",
+    "yjs": "^13.6.19"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8"
+  },
+  "type": "module"
+}
