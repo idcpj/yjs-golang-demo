@@ -10,7 +10,7 @@ console.log('Client ID:', ydoc.clientID);
 const ytext = ydoc.getText('shared-text');
 
 // 连接到 WebSocket 提供程序
-const provider = new WebsocketProvider('ws://192.168.0.50:1880/ws', 'my-room', ydoc);
+const provider = new WebsocketProvider('ws://localhost:1880/ws', 'my-room', ydoc);
 
 // 获取文本区域元素
 const textarea = document.getElementById('editor');
